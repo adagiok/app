@@ -1,0 +1,192 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.top{
+    width:7.5rem;
+    height:0.88rem;
+    background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
+    background:linear-gradient(to right,#ff3433,#ff7a18);
+    font-size:0.36rem;
+    color:white;
+    text-align:center;
+    line-height:0.88rem;
+    position:fixed;
+    top:0;
+}
+.top i{
+    position:absolute;
+    top:0.04rem;
+    left:0.2rem;
+}
+
+
+/* 分割 */
+
+.lsd{
+    width:7.5rem;
+    height:0.88rem;
+    background-color: white;
+}
+
+/* 分割 */
+
+.tops{
+    width:7.02rem;
+    height:3.2rem;
+    background-color:pink;
+    margin:0 auto;
+    margin-top:0.28rem;
+    overflow:hidden;
+    box-shadow:0 0 0.03rem 0.01rem #fdd1c0;
+}
+.tops .heads{
+    width:7.02rem;
+    height:0.95rem;
+    background-color:white;
+    overflow:hidden;
+}
+.tops .headx{
+    width:7.02rem;
+    height:2.25rem;
+    background-color:white;
+    overflow:hidden;
+}
+.tops .heads .z{
+    width:0.32rem;
+    height:0.32rem;
+    background-color:#FC7365;
+    border-radius:50%;
+    border:0.1rem solid #ffffff;
+    margin-top:0.2rem;
+    margin-left:0.1rem;
+    float:left;
+    box-shadow:0 0 0.03rem 0.01rem #cfcfcf;
+}
+.tops .heads .y{
+    width:2rem;
+    height:0.95rem;
+    float:right;
+}
+.tops .heads i{
+    font-size:0.34rem;
+    color:#FF4F40;
+    line-height:0.95rem;
+    margin-left:0.45rem;
+}
+.tops .heads span{
+    line-height:0.95rem;
+    color:#FF4F40;
+    margin-left:0.15rem;
+}
+.tops .headx span{
+    color:rgb(39, 39, 39);
+    font-size:0.36rem;
+    display:block;
+    margin-left:0.2rem;
+    margin-top:0.2rem;
+}
+.tops .headx pre{
+    color:rgb(172, 172, 172);
+    font-size:0.26rem;
+    margin-left:0.2rem;
+    margin-top:0.1rem;
+}
+.tops .headx p{
+    color:rgb(172, 172, 172);
+    font-size:0.26rem;
+    margin-left:0.2rem;
+    margin-top:0.1rem;
+}
+
+/* 分割 */
+
+.topss{
+    width:7.02rem;
+    height:3.2rem;
+    background-color:pink;
+    margin:0 auto;
+    margin-top:0.2rem;
+    overflow:hidden;
+    box-shadow:0 0 0.03rem 0.01rem #fdd1c0;
+}
+.topss .headss{
+    width:7.02rem;
+    height:0.95rem;
+    background-color:white;
+    overflow:hidden;
+}
+.topss .headxs{
+    width:7.02rem;
+    height:2.25rem;
+    background-color:white;
+    overflow:hidden;
+}
+.topss .headss .zs{
+    width:0.32rem;
+    height:0.32rem;
+    background-color:#D3D3D3;
+    border-radius:50%;
+    border:0.1rem solid #ffffff;
+    margin-top:0.2rem;
+    margin-left:0.1rem;
+    float:left;
+    box-shadow:0 0 0.03rem 0.01rem #cfcfcf;
+}
+.topss .headss .ys{
+    width:2rem;
+    height:0.95rem;
+    float:right;
+}
+.topss .headss i{
+    font-size:0.34rem;
+    color:#FF4F40;
+    line-height:0.95rem;
+    margin-left:0.45rem;
+}
+.topss .headss span{
+    line-height:0.95rem;
+    color:#FF4F40;
+    margin-left:0.15rem;
+}
+.topss .headxs span{
+    color:rgb(39, 39, 39);
+    font-size:0.36rem;
+    display:block;
+    margin-left:0.2rem;
+    margin-top:0.2rem;
+}
+.topss .headxs pre{
+    color:rgb(172, 172, 172);
+    font-size:0.26rem;
+    margin-left:0.2rem;
+    margin-top:0.1rem;
+}
+.topss .headxs p{
+    color:rgb(172, 172, 172);
+    font-size:0.26rem;
+    margin-left:0.2rem;
+    margin-top:0.1rem;
+}
+
+/* 分割 */
+
+.ddd{
+    width:3.6rem;
+    height:0.87rem;
+    background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
+    background:linear-gradient(to right,#ff3433,#ff7a18);
+    background-color: aqua;
+    border-radius:0.5rem;
+    position:absolute;
+    top:8.2rem;
+    left:1.9rem;
+}
+.ddd span{
+    color:white;
+    text-align: center;
+    line-height: 0.87rem;
+    font-size:0.39rem;
+    margin-left: 0.6rem;
+}

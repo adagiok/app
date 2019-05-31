@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.top{
+    width:7.5rem;
+    height:0.88rem;
+    background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
+    background:linear-gradient(to right,#ff3433,#ff7a18);
+    font-size:0.36rem;
+    color:white;
+    text-align:center;
+    line-height:0.88rem;
+    position:fixed;
+    top:0;
+}
+
+/* 分割 */
+
+.bottom{
+    width:7.5rem;
+    height:0.96rem;
+    border-top:0.01rem solid #d7d7d7;
+    position:fixed;
+    bottom:0;
+    background-color:#fefefe;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.bottom .dd{
+    width:0.96rem;
+    height:0.96rem;
+}
+.bottom .dd a{
+    display:block;
+    width:0.96rem;
+    height:0.96rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.bottom .dd .iconfont{
+    font-size:0.41rem;
+    color:#ff5b2d;
+}
+.bottom .dd span{
+    font-size:0.18rem;
+    color:#989898;
+}
+.bottom .ddd span{
+    color:#ff3433;
+}
+
+/* 分割 */
+
+.sort{
+    width:7.5rem;
+    height:0.88rem;
+    margin:0 auto;
+    margin-top:0.88rem;
+    background-color:white;
+    position:relative;
+}
+.sort a{
+    display:block;
+    line-height:0.88rem;
+    margin-left:0.33rem;
+    float:left;
+    font-size:0.34rem;
+    color:#000000;
+}
+.sort .sort1{
+    color:#ff3433;
+}
+.sort .yello{
+    width:0.38rem;
+    height: 0.06rem;
+    background-color:#ff3433;
+    position:absolute;
+    margin-top:0.7rem;
+    margin-left:0.5rem;
+}
+
+/* 分割 */
+
+.variety{
+    width:7.02rem;
+    height:2.3rem;
+    background-color:white;
+    margin:0 auto;
+    margin-top:0.24rem;
+    border-radius:0.1rem;
+    position:relative;
+    overflow:hidden;
+    box-shadow:0 0 0.03rem 0.01rem #fdd1c0;
+}
+.variety .phone{
+    width:3.13rem;
+    height:1.95rem;
+    border-radius:0.1rem;
+    margin-left:0.2rem;
+    margin-top:0.16rem;
+    float:left;
+}
+.variety .phone .icon{
+    width:0.6rem;
+    height:0.6rem;
+    background-color:white;
+    border-radius:50%;
+    right:0.25rem;
+    bottom:0.2rem;
+    position:absolute;
+    box-shadow:0 0 0.03rem 0.01rem #fdd1c0;
+}
+.variety .phone .icon i{
+    display:block;
+    width:0.4rem;
+    height:0.4rem;
+    color:#ff3433;
+    margin-top:0.15rem;
+    margin-left:0.12rem;
+    position:absolute;
+}
+.variety .phone img{
+    width:3.13rem;
+    height:1.95rem;
+    border-radius:0.1rem;
+}
+.variety .right{
+    width:3rem;
+    height:1.95rem;
+    float:right;
+    margin-right:0.5rem;
+}
+.variety .right span{
+    display:block;
+    font-size:0.29rem;
+    color:black;
+    margin-top:0.4rem;
+}
+.variety .right p{
+    display:block;
+    font-size:0.2rem;
+    color:rgb(150, 148, 148);
+    margin-top:0.05rem;
+}
+.variety .right pre{
+    display:block;
+    font-size:0.27rem;
+    color:#ff5b2d;
+    margin-top:0.3rem;
+}

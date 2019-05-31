@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.top{
+    width:7.5rem;
+    height:0.88rem;
+    background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
+    background:linear-gradient(to right,#ff3433,#ff7a18);
+    font-size:0.36rem;
+    color:white;
+    text-align:center;
+    line-height:0.88rem;
+    position:fixed;
+    top:0;
+}
+.top i{
+    position:absolute;
+    top:0.04rem;
+    left:0.2rem;
+}
+
+/* 分割 */
+
+.pay{
+    width:7.02rem;
+    height:5rem;
+    background-color:white;
+    margin:0 auto;
+    overflow:hidden;
+    margin-top:2.84rem;
+}
+.pay .wc{
+    width:1.98rem;
+    height:1.98rem;
+    margin:0 auto;
+    border-radius:50%;
+    box-shadow:0 0 0.03rem 0.01rem rgb(221, 221, 221);
+}
+.pay .wc i{
+    font-size:1.98rem;
+    color:#15F860;
+}
+.pay .zi{
+    width:1.55rem;
+    height:1.05rem;
+    margin:0 auto;
+    margin-top:0.3rem;
+}
+.pay .zi span{
+    font-size:0.38rem;
+    text-align: center;
+}
+.pay .zi p{
+    font-size:0.32rem;
+    color:#FF5751;
+    text-align: center;
+    margin-top:0.2rem;
+}
+.pay .z{
+    width:2.2rem;
+    height:0.58rem;
+    border-radius:0.5rem;
+    background-color:#E5E5E5;
+    margin-top:0.5rem;
+    float:left;
+    margin-left:0.9rem;
+}
+.pay .y{
+    width:2.2rem;
+    height:0.58rem;
+    border-radius:0.5rem;
+    margin-top:0.5rem;
+    float:right;
+    margin-right:0.9rem;
+    background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
+    background:linear-gradient(to right,#ff3433,#ff7a18);
+}
+.pay .z span{
+    line-height:0.58rem;
+    margin-left:0.45rem;
+    color:white;
+}
+.pay .y span{
+    line-height:0.58rem;
+    margin-left:0.45rem; 
+    color:white;
+}

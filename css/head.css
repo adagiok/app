@@ -1,0 +1,309 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.top{
+    width:7.5rem;
+    height:0.88rem;
+    background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
+    background:linear-gradient(to right,#ff3433,#ff7a18);
+    font-size:0.36rem;
+    color:white;
+    text-align:center;
+    line-height:0.88rem;
+    position:fixed;
+    top:0;
+}
+.top i{
+    position:absolute;
+    top:0.04rem;
+    left:0.2rem;
+}
+
+/* 分割*/
+
+.phone{
+    width:7.5rem;
+    height:5.98rem;
+    margin-top:0.88rem;
+}
+
+/* 分割*/
+
+.pin{
+    width:7.02rem;
+    height:2.94rem;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+}
+.pin .s{
+    width:7.02rem;
+    height:0.62rem;
+    position:relative;
+}
+.pin .s span{
+    font-size:0.29rem;
+    color:#ff5625;
+    float:left;
+    display:block;
+    margin-top:0.22rem;
+}
+.pin .s .star i{
+    color:#ff5625;
+    font-size:0.25rem;
+    float:left;
+    display:block;
+    margin-top:0.3rem;
+}
+.pin .s .star .box{
+    color:#949393;
+}
+.pin .s pre{
+    font-size:0.44rem;
+    color:#ff5625;
+    position:absolute;
+    right:0.63rem;
+    top:0.12rem;
+}
+.pin .s p{
+    color:#ff5625;
+    font-size:0.25rem;
+    position:absolute;
+    right:0;
+    top:0.3rem;
+}
+.pin .z span{
+    font-size:0.34rem;
+    color:rgb(37, 37, 37);
+    display:block;
+    margin-top:0.2rem;
+}
+.pin .z p{
+    font-size:0.26rem;
+    color:rgb(124, 124, 124);
+}
+.pin .z{
+    width:7.02rem;
+    height:1.52rem;
+    overflow:hidden;
+}
+.pin .x{
+    width:7.02rem;
+    height:0.79rem;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.pin .x .jia{
+    width:1.6rem;
+    height:0.51rem;
+    background-color:white;
+    border-radius:0.5rem;
+    font-size:0.3rem;
+    line-height:0.51rem;
+    text-align: center;
+    color:#ff5625;
+    box-shadow:0 0 0.03rem 0.01rem #fdd1c0;
+}
+
+/* 分割*/
+
+.heada{
+    width:7.02rem;
+    height:2.1rem;
+    margin:0 auto;
+    overflow:hidden;
+}
+.heada .s{
+    width:7.02rem;
+    height:1.52rem;
+    background-color:white;
+    overflow:hidden;
+}
+.heada .x{
+    width:7.02rem;
+    height:0.58rem;
+    overflow:hidden;
+}
+.heada .s .hy{
+    width:1.19rem;
+    height:1.19rem;
+    background-color:black;
+    border-radius:50%;
+    margin-top:0.19rem;
+    margin-left:0.07rem;
+    float:left;
+}
+.heada .s .zz span{
+    font-size:0.34rem;
+    margin-left:0.1rem;
+}
+.heada .s .ym{
+    width:1.7rem;
+    height:1.19rem;
+    float:right;
+    right:0;
+}
+.heada .s .zz p{
+    font-size:0.23rem;
+    margin-left:0.1rem;
+}
+.heada .s .zz{
+    width:2.5rem;
+    height:0.7rem;
+    float:left;
+    margin-top:0.3rem;
+    margin-left:0.05rem;
+}
+.heada .x .yy{
+    width:5.6rem;
+    height:0.58rem;
+    float:right;
+}
+.heada .x p{
+    font-size:0.24rem;
+}
+.heada .ym i{
+    color:#ff5625;
+    font-size:0.25rem;
+    float:left;
+    display:block;
+    margin-top:0.3rem;
+}
+.heada .ym .box{
+    color:#949393;
+}
+
+/* 分割*/
+
+.fond{
+    width:7.02rem;
+    height:0.96rem;
+    background-color:white;
+    margin:0 auto;
+    overflow:hidden;
+}
+.fond .logo{
+    width:0.63rem;
+    height:0.63rem;
+    background-color:#d81e06;
+    border-radius:50%;
+    margin-top:0.16rem;
+    margin-left:0.07rem;
+    float:left;
+}
+.fond span{
+    font-size:0.36rem;
+    float:left;
+    line-height:0.96rem;
+    margin-left:0.1rem;
+}
+.fond i{
+    font-size:0.34rem;
+    color:white;
+    display:block;
+    margin-left:0.15rem;
+    margin-top:0.15rem;
+}
+
+/* 分割*/
+
+.lun{
+    width:7.02rem;
+    height:3.27rem;
+    background-color:white;
+    margin:0 auto;
+    overflow:hidden;
+    overflow:auto;
+}
+.lun .tiao{
+    width:12rem;
+    height:3.27rem;
+}
+.lun .tiao .tu{
+    width:2.61rem;
+    height:3.08rem;
+    background-color:pink;
+    margin-left:0.17rem;
+    float:left;
+}
+.lun .tiao .box{
+    margin-left:0;
+}
+
+/* 分割*/
+
+.cc{
+    width:7.5rem;
+    height:0.98rem;
+    background-color: white;
+}
+
+/* 分割*/
+
+.bottom{
+    margin-top:0.98rem;
+    width:7.5rem;
+    height:0.98rem;
+    background-color:white;
+    border-top:0.01rem solid rgb(187, 187, 187);
+    position:fixed;
+    bottom:0;
+}
+.bottom .y{
+    width:2.64rem;
+    height:0.71rem;
+    background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
+    background:linear-gradient(to right,#ff3433,#ff7a18);
+    border-radius:0.5rem;
+    float:right;
+    margin-top:0.13rem;
+}
+.bottom .z{
+    width:2.8rem;
+    height:0.65rem;
+    float:left;
+    margin-top:0.15rem;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.bottom .z .dd{
+    width:0.39rem;
+    height:0.62rem;
+    font-size:0.17rem;
+    color:#ff5a24;
+}
+.bottom .z .dd i{
+    font-size:0.37rem;
+    color:#ff5a24;
+}
+.bottom .y{
+    font-size:0.34rem;
+    color:white;
+    line-height:0.71rem;
+    text-align: center;
+}
+.bottom .zz{
+    width:0.67rem;
+    height:0.67rem;
+    background-color:white;
+    border-radius:0.5rem;
+    box-shadow:0 0 0.03rem 0.01rem #fdd1c0;
+    position:absolute;
+    left:3.5rem;
+    top:0.18rem;
+
+}
+.bottom .zz i{
+    font-size:0.45rem;
+    color:#ff5a24;
+    margin:0 auto;
+    line-height:0.67rem;
+    margin-left:0.1rem;
+}
+
+
+/* 分割 */

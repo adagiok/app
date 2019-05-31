@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+.top{
+    width:7.5rem;
+    height:0.88rem;
+    background: -webkit-linear-gradient(to right,#ff3433,#ff7a18);
+    background:linear-gradient(to right,#ff3433,#ff7a18);
+    font-size:0.36rem;
+    color:white;
+    overflow:hidden;
+    text-align:center;
+    line-height:0.88rem;
+    position:fixed;
+    top:0;
+}
+
+/* 分割 */
+
+.bottom{
+    width:7.5rem;
+    height:0.96rem;
+    border-top:0.01rem solid #d7d7d7;
+    position:fixed;
+    bottom:0;
+    background-color:#fefefe;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    overflow:hidden;
+}
+.bottom .dd{
+    width:0.96rem;
+    height:0.96rem;
+}
+.bottom .dd a{
+    display:block;
+    width:0.96rem;
+    height:0.96rem;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.bottom .dd .iconfont{
+    font-size:0.41rem;
+    color:#ff5b2d;
+}
+.bottom .dd span{
+    font-size:0.18rem;
+    color:#989898;
+}
+.bottom .ddd span{
+    color:#ff3433;
+}
+
+/* 分割 */
+
+.head{
+    width:7.51rem;
+    height:6.2rem;
+    background: -webkit-linear-gradient(to bottom,#FFE4D1,#FFFDFD);
+    background:linear-gradient(to bottom,#FFE4D1,#FFFDFD);
+    overflow:hidden;
+    position:relative;
+    margin-top: 0.88rem;
+}
+.head .s{
+    width:2rem;
+    height:2rem;
+    background-color:rgb(199, 2, 2);
+    border-radius:50%;
+    margin:0 auto;
+    margin-top:1.34rem;
+    position:absolute;
+    left:2.75rem;
+    top:-0.9rem;
+}
+.head .s img{
+    border-radius:50%;
+    width:2rem;
+    height:2rem;
+}
+.head .x{
+    width:7.02rem;
+    height:3.35rem;
+    background-color:white;
+    margin:0 auto;
+    overflow:hidden;
+    margin-top:2.02rem;
+}
+.head .s .id{
+    width:1.2rem;
+    height:0.34rem;
+    margin:0 auto;
+    margin-top:0.1rem;
+    font-size:0.34rem;
+    color:#ff482b;
+}
+.head .s .idc{
+    width:2.1rem;
+    height:0.24rem;
+    margin:0 auto;
+    margin-top:0.2rem;
+    font-size:0.24rem;
+    color:rgb(131, 131, 131);
+}
+.head .x .san{
+    width:6.08rem;
+    height:1rem;
+    margin:0 auto;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    margin-top:2rem;
+}
+.head .x .san .sann{
+    width:0.94rem;
+    height:0.97rem;
+    font-size:0.23rem;
+    color:black;
+}
+.head .x .san .sann i{
+    font-size:0.56rem;
+    color:#ff5626;
+    margin-left:0.09rem;
+    text-align:center;
+}
+.head .x .san .sann .box{
+    color:rgb(155, 155, 155);
+}
+
+/* 分割 */
+
+.sss{
+    width:7.02rem;
+    height:5.1rem;
+    margin:0 auto;
+    overflow:hidden;
+}
+.sss .xxx{
+    width:7.02rem;
+    height:1rem;
+    background-color:white;
+    border-top:0.01rem solid rgb(216, 216, 216);
+    font-size:0.29rem;
+    line-height:1rem;
+    position:relative;
+    color:black;
+}
+.sss .xx{
+    border-top:0;
+}
+.sss .yy{
+    font-size:0.24rem;
+    color:#ff5625;
+}
+.sss .xxx span{
+    margin-left:3.7rem;
+    font-size:0.24rem;
+}
+.sss .yy span{
+    margin-left:4.2rem;
+    font-size:0.24rem;
+}
+.sss .xxx i{
+    position:absolute;
+    right:0.3rem;
+}
+
+/* 分割 */
+
+.di{
+    width:7.5rem;
+    height:0.96rem;
+    background-color:white;
+}
